@@ -34,7 +34,7 @@ class chessPiece:
         
     def stampPiece(self, x, y):
         shape(self.imgAddr)
-        goto(x, y)
+        goto(x, y+30)
         self.stampId = stamp()
         
     def populateTable(self, newSpace):
